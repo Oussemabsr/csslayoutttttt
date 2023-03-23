@@ -1,0 +1,126 @@
+* {
+    font-family: "Roboto";
+     font-weight: lighter;
+     margin: 1.5%;
+}
+/* header part */
+header {
+    position: sticky; top: 0;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+nav img {
+    width: 20%;
+}
+ul {
+    display: flex;
+    padding-right: 10%;
+}
+li {
+    margin: 1rem;
+}
+a {
+    color: #00b39b;
+}
+.firsttitle {
+    text-align: center;
+}
+.firsttitle h1 {
+    color: #00b39b;
+font-size: 2.125rem;
+}
+.firstparag {
+    display: flex;
+    color: #00b39b;
+    text-align: start;
+    justify-content: space-between;
+    line-height: 1.75;
+}
+.services {
+    display: flex;
+}
+.patients {
+    border-style: hidden; background-color: #00ccb1; color: #fff;
+}
+.doctors {
+    border-style: hidden; background-color: #3d83df;color: #fff;
+}
+.clinics {
+    border-style: hidden; background-color: #00b39b;color: #fff;
+}
+.stat {
+    display: flex; align-items: center; background-color: #e5faf8; color: #00b39b;
+}
+.stat1 h1 { text-align: center;
+}
+.stat1 p{ text-align: center;}
+.stat2 {
+    display: flex;
+}
+.leader {
+    width: 100%;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+.appointements {
+    width: 100%;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    box-sizing: border-box;
+    background-color: #fff;   
+}
+.patientss {
+    width: 100%;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    box-sizing: border-box;
+    background-color: #fff;  
+}
+.activedoc {
+    width: 100%;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    box-sizing: border-box;
+    background-color: #fff;  
+}
+.goals {
+    text-align: center; margin: 1.6em 0; color: #00b39b;
+}
+.goals h1 {
+    font-size: xx-large;
+}
+.goals p {
+    text-align: center; padding-left: 25%; padding-right: 25%;
+}
+.countries {
+    display: flex; flex-wrap: wrap; justify-content: space-between; margin: 2% 10%;
+}
+.country {
+    margin-bottom: 2%; border-radius: 5%; cursor: pointer;
+}
+.country img {
+    border-top-right-radius: 5%; border-top-left-radius: 5%;
+}
+.country div {
+    display: flex; justify-content: space-between; align-items: center; padding: 2%;
+}
+.country div button {
+    background-color: blue; color: #fff; border: none;
+}
+footer {
+    text-align: center; color: #00b39b; padding: 2% 10%;
+}
